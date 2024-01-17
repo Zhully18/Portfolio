@@ -95,3 +95,13 @@
     height: 350px;
     object-fit: cover;
 }
+
+@media screen and (max-width:480px) {
+    .portfolio_container{
+        grid-template-columns: 1fr;
+    }
+
+    .modal_list{
+    grid-template-columns: 1fr;
+    }
+}

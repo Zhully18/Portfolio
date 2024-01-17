@@ -151,3 +151,16 @@
 .resume_description{
     font-size: var(--smaller-font-size);
 }
+
+@media screen and (max-width:480px) {
+    .about_container,
+    .resume_container{
+    grid-template-columns: 1fr;
+    align-items: flex-start;
+}
+    .skills_container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    
+}

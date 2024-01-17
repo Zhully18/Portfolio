@@ -78,3 +78,10 @@
     resize: none;
     height: 160px;
 }
+
+@media screen and (max-width:480px) {
+    .contact_container,
+    .form_input-group{
+        grid-template-columns: 1fr;
+    }
+}

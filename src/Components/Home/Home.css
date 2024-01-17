@@ -27,6 +27,7 @@
 .home_title span{
     color: var(--first-color);
 }
+/* for the line beside I'm Agunrege Oyin */
 .home_title::before{
     content: '';
     position: absolute;
@@ -41,6 +42,7 @@
     line-height: 2.125;
     margin-block: 16px 32px;
 }
+/* The slant color block on the screen */
 .color_block{
     position: fixed;
     height: 200%;
@@ -49,4 +51,19 @@
     top: -50%;
     left: -83%;
     transform: rotate(-15deg);
+}
+
+@media screen and (max-width:480px) {
+    .home{
+        grid-template-columns: 1fr;
+    }
+
+    .home_image{
+        border-radius: 50%;
+        height: 400px;
+    }
+    .color_block{
+        display: none;
+    }
+   
 }
