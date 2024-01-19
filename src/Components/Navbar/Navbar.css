@@ -75,9 +75,6 @@
         all:unset;
         z-index: 1000;
     }
-    .nav_toggle{
-        display: none;
-    }
     .nav{
         position: fixed;
         inset-block: 0;
@@ -142,6 +139,8 @@
     .animate-toggle span:first-child{
        transform: rotate(45deg) translate(6px, 4px);
     }
-
+    .nav_toggle{
+        z-index: 1000;
+    }    
     
 }

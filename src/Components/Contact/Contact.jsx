@@ -31,7 +31,7 @@ const Contact = () => {
 
               <div>
                 <span className="info_title">Call me</span>
-                <h4 className="info_desc">+234</h4>
+                <h4 className="info_desc">+2348107214514</h4>
               </div>
               
             </div>

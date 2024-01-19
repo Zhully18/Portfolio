@@ -128,13 +128,13 @@ export const stats = [
 
   {
     id: 2,
-    no: '2',
+    no: '5',
     title: 'Completed <br /> Projects',
   },
 
   {
     id: 3,
-    no: '1+',
+    no: '3+',
     title: 'Happy <br /> Customers',
   },
 
@@ -177,27 +177,27 @@ export const resume = [
     id: 4,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2021',
+    year: 'Mar 2017- Sept 2021',
     title: 'Bachelors of Science Degree <span> Southwestern University </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore',
+    desc: 'Studied Mathematics and Computer science in Southwestern University Nigeria',
   },
 
   {
     id: 5,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2022',
+    year: 'Jan 2022',
     title: 'Web Development <span> Freecodecamp </span>',
-    desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
+    desc: 'Studied the introduction to web development in Freecodecamp',
   },
 
   {
     id: 6,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2023',
+    year: 'Aug 2023',
     title: 'Frontend Development <span> GoMyCode </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore',
+    desc: 'Registered and studied Frontend Development cousre at GoMyCode Nigeria',
   },
 ];
 
@@ -223,7 +223,7 @@ export const skills = [
   {
     id: 4,
     title: 'React',
-    percentage: '79',
+    percentage: '80',
   },
 
   {
