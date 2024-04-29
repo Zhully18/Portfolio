@@ -12,9 +12,9 @@ import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
 import Work1 from './assets/weather.png';
 import Work2 from './assets/port.png';
 import Work3 from './assets/myport.png';
-import Work4 from './assets/project-4.jpeg';
-import Work5 from './assets/project-5.jpg';
-import Work6 from './assets/project-6.jpg';
+import Work4 from './assets/food-web.jpeg';
+import Work5 from './assets/landing-pg.jpeg';
+import Work6 from './assets/r-estate.jpeg';
 
 import Theme1 from './assets/purple.png';
 import Theme2 from './assets/red.png';
@@ -339,12 +339,12 @@ export const portfolio = [
   {
     id: 4,
     img: Work4,
-    title: 'Video Editing',
+    title: 'E-Commerce website',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Video',
+        desc: 'Website',
       },
       {
         icon: <FiUser />,
@@ -354,7 +354,7 @@ export const portfolio = [
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Premium',
+        desc: 'React JS ',
       },
       {
         icon: <FiExternalLink />,
@@ -367,14 +367,14 @@ export const portfolio = [
   {
     id: 5,
     img: Work5,
-    title: 'Landing Page',
+    title: 'Hair Oil Landing Page',
     details: [
       {
         title: 'Project : ',
         desc: 'Website',
       },
       {
-        title: 'Client : ',
+        title: 'Personal : ',
         desc: 'Dribble',
       },
       {
@@ -391,12 +391,12 @@ export const portfolio = [
   {
     id: 6,
     img: Work6,
-    title: 'Photo Editing',
+    title: 'Construction company website',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Photo',
+        desc: 'Construction',
       },
       {
         icon: <FiUser />,
@@ -406,7 +406,7 @@ export const portfolio = [
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Photoshop',
+        desc: 'HTML, CSS, and JS',
       },
       {
         icon: <FiExternalLink />,
