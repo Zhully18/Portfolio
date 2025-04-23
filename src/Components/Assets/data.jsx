@@ -9,10 +9,10 @@ import {
 } from 'react-icons/fa';
 import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
 
-import Work1 from './assets/weather.png';
+import Work1 from './assets/port1.jpeg';
 import Work2 from './assets/port.png';
-import Work3 from './assets/myport.png';
-import Work4 from './assets/food-web.jpeg';
+import Work3 from './assets/port2.jpeg';
+import Work4 from './assets/port3.jpeg';
 import Work5 from './assets/landing-pg.jpeg';
 import Work6 from './assets/r-estate.jpeg';
 
@@ -255,12 +255,12 @@ export const portfolio = [
   {
     id: 1,
     img: Work1,
-    title: 'Weather App',
+    title: 'Resturant Reservation System',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Weather App',
+        desc: 'Resturant Reservation System',
       },
       {
         icon: <FiUser />,
@@ -270,7 +270,7 @@ export const portfolio = [
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'React js',
+        desc: 'React js, Tailwind CSS',
       },
       {
         icon: <FiExternalLink />,
@@ -311,22 +311,22 @@ export const portfolio = [
   {
     id: 3,
     img: Work3,
-    title: 'My Personal Portfolio',
+    title: 'Crypto Tracking Website',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Portfolio website',
+        desc: 'Crypto Tracking Website',
       },
       {
         icon: <FiUser />,
-        title: 'Client : ',
+        title: 'Youtube : ',
         desc: 'Personal',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Recat JS',
+        desc: 'Recat JS, Tailwind CSS',
       },
       {
         icon: <FiExternalLink />,
@@ -339,7 +339,7 @@ export const portfolio = [
   {
     id: 4,
     img: Work4,
-    title: 'E-Commerce website',
+    title: 'Real Estate Website',
     details: [
       {
         icon: <FiFileText />,
@@ -354,7 +354,7 @@ export const portfolio = [
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'React JS ',
+        desc: 'React JS and Tailwind CSS',
       },
       {
         icon: <FiExternalLink />,
