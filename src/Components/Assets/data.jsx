@@ -10,7 +10,7 @@ import {
 import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
 
 import Work1 from './assets/port1.jpeg';
-import Work2 from './assets/port.png';
+import Work2 from './assets/port4.jpeg';
 import Work3 from './assets/port2.jpeg';
 import Work4 from './assets/port3.jpeg';
 import Work5 from './assets/landing-pg.jpeg';
@@ -283,17 +283,17 @@ export const portfolio = [
   {
     id: 2,
     img: Work2,
-    title: 'Portfolio Website',
+    title: 'SaaS Landing Page',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Portfolio website',
+        desc: 'SaaS Landing Page',
       },
       {
         icon: <FiUser />,
         title: 'Client : ',
-        desc: 'IPSOS Staff',
+        desc: 'Youtube',
       },
       {
         icon: <FaCode />,
